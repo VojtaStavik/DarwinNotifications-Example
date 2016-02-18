@@ -1,0 +1,527 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		12B6EA2BD4C5D92FFD136B4D07E121AC /* CCHDarwinNotificationCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B28A6E9D8BB66A2F5E42CF4907A51B /* CCHDarwinNotificationCenter.m */; };
+		4E8AC0D4E575C6F331DD1852B08C5BDA /* CCHDarwinNotificationCenter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 34BE8A153BD104E73192F1CC072FA166 /* CCHDarwinNotificationCenter-dummy.m */; };
+		52AF58616ACAEE564FC2720561C1DF21 /* CCHDarwinNotificationCenterUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 436395B656EFD19DD72A1AEFEEE32817 /* CCHDarwinNotificationCenterUtils.m */; };
+		6EDB85EE903776055F31F8A56F872940 /* CCHDarwinNotificationCenter.h in Headers */ = {isa = PBXBuildFile; fileRef = C377B25E3071514718495D0AFC2D8CE3 /* CCHDarwinNotificationCenter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		82028A49609CA4473ACC07AD0EE72139 /* Pods-BigBrother-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 57EB4EE266BF8AD50A25CA8FEAF494D1 /* Pods-BigBrother-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A6A238AD33ED173EC152778869C122F2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3997E5D2953ECDF377B85B234FDF550D /* Foundation.framework */; };
+		B978512AE62186541590602A20B211DA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3997E5D2953ECDF377B85B234FDF550D /* Foundation.framework */; };
+		FB0EA248E83A15DD3B17D7E472DF01CC /* Pods-BigBrother-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C0BA227D21772118782AA689EC816403 /* Pods-BigBrother-dummy.m */; };
+		FD530B2052831C77873F5BD895A12E12 /* CCHDarwinNotificationCenter-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 204C34C03EF6A99CEB76DF345EE73C50 /* CCHDarwinNotificationCenter-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FFA4B8B6D2522D6357FDE0EA32BAE7ED /* CCHDarwinNotificationCenterUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 63E48BC35C8B4028F3FEA238BE5EDE1B /* CCHDarwinNotificationCenterUtils.h */; settings = {ATTRIBUTES = (Private, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C2C77D3C6995DEA6D5357E5AD6302D78 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 33783FD566B4AACFCF6636DC08DF3249;
+			remoteInfo = CCHDarwinNotificationCenter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04B28A6E9D8BB66A2F5E42CF4907A51B /* CCHDarwinNotificationCenter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CCHDarwinNotificationCenter.m; path = CCHDarwinNotificationCenter/CCHDarwinNotificationCenter.m; sourceTree = "<group>"; };
+		08C0104AE3FF6552826E88E499A162B6 /* Pods-BigBrother.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BigBrother.release.xcconfig"; sourceTree = "<group>"; };
+		0EBAEC2666821AD7700D11237D8710F6 /* CCHDarwinNotificationCenter.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CCHDarwinNotificationCenter.xcconfig; sourceTree = "<group>"; };
+		19E8433CD3F7F4020D111FAD6DAFBED1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		204C34C03EF6A99CEB76DF345EE73C50 /* CCHDarwinNotificationCenter-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CCHDarwinNotificationCenter-umbrella.h"; sourceTree = "<group>"; };
+		211F2C4D5954D3D98F20ED02E5A71552 /* Pods-BigBrother-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BigBrother-acknowledgements.markdown"; sourceTree = "<group>"; };
+		34BE8A153BD104E73192F1CC072FA166 /* CCHDarwinNotificationCenter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CCHDarwinNotificationCenter-dummy.m"; sourceTree = "<group>"; };
+		3997E5D2953ECDF377B85B234FDF550D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		436395B656EFD19DD72A1AEFEEE32817 /* CCHDarwinNotificationCenterUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CCHDarwinNotificationCenterUtils.m; path = CCHDarwinNotificationCenter/CCHDarwinNotificationCenterUtils.m; sourceTree = "<group>"; };
+		57EB4EE266BF8AD50A25CA8FEAF494D1 /* Pods-BigBrother-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BigBrother-umbrella.h"; sourceTree = "<group>"; };
+		63E48BC35C8B4028F3FEA238BE5EDE1B /* CCHDarwinNotificationCenterUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CCHDarwinNotificationCenterUtils.h; path = CCHDarwinNotificationCenter/CCHDarwinNotificationCenterUtils.h; sourceTree = "<group>"; };
+		6AF2AC382FBC4CE38F96AE07751F0E97 /* Pods-BigBrother-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BigBrother-acknowledgements.plist"; sourceTree = "<group>"; };
+		7130F610C51DB4898747CC00BB467512 /* CCHDarwinNotificationCenter.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = CCHDarwinNotificationCenter.modulemap; sourceTree = "<group>"; };
+		7BA188372EFCC1E859F7DFBFC359DE29 /* Pods-BigBrother.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BigBrother.debug.xcconfig"; sourceTree = "<group>"; };
+		A001D184FAF9CFD2C93F6B6815C0F585 /* Pods-BigBrother.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-BigBrother.modulemap"; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BC1CE0025529FA405522BB5CE70AADF1 /* Pods-BigBrother-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BigBrother-resources.sh"; sourceTree = "<group>"; };
+		C0BA227D21772118782AA689EC816403 /* Pods-BigBrother-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BigBrother-dummy.m"; sourceTree = "<group>"; };
+		C377B25E3071514718495D0AFC2D8CE3 /* CCHDarwinNotificationCenter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CCHDarwinNotificationCenter.h; path = CCHDarwinNotificationCenter/CCHDarwinNotificationCenter.h; sourceTree = "<group>"; };
+		C38CCA252994BEC117A5BE8C7592D5C7 /* CCHDarwinNotificationCenter-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CCHDarwinNotificationCenter-prefix.pch"; sourceTree = "<group>"; };
+		C851337D540ED902EB01A9AA106AA05C /* Pods-BigBrother-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BigBrother-frameworks.sh"; sourceTree = "<group>"; };
+		CC54C652248BA92CF0763CA3C2640BEE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF04375047AE78AB560D80657A4E0A4D /* CCHDarwinNotificationCenter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CCHDarwinNotificationCenter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAE64F4D32C3DD33BB4423D70BC40607 /* Pods_BigBrother.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BigBrother.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5114A8194C5E011BA35A60C42D0D5E18 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B978512AE62186541590602A20B211DA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67DCC49AB85C1B9717E0D99EFF0B8527 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6A238AD33ED173EC152778869C122F2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		112C7921E3A497328D11F4930CBBC9CA /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3997E5D2953ECDF377B85B234FDF550D /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		3259D5F894F9BA92F31A4729F673E748 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF04375047AE78AB560D80657A4E0A4D /* CCHDarwinNotificationCenter.framework */,
+				FAE64F4D32C3DD33BB4423D70BC40607 /* Pods_BigBrother.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5A2E968167A10D6D704F266454D24EFC /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				758B98295400CADB96A8EDBEBB487343 /* Pods-BigBrother */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		758B98295400CADB96A8EDBEBB487343 /* Pods-BigBrother */ = {
+			isa = PBXGroup;
+			children = (
+				19E8433CD3F7F4020D111FAD6DAFBED1 /* Info.plist */,
+				A001D184FAF9CFD2C93F6B6815C0F585 /* Pods-BigBrother.modulemap */,
+				211F2C4D5954D3D98F20ED02E5A71552 /* Pods-BigBrother-acknowledgements.markdown */,
+				6AF2AC382FBC4CE38F96AE07751F0E97 /* Pods-BigBrother-acknowledgements.plist */,
+				C0BA227D21772118782AA689EC816403 /* Pods-BigBrother-dummy.m */,
+				C851337D540ED902EB01A9AA106AA05C /* Pods-BigBrother-frameworks.sh */,
+				BC1CE0025529FA405522BB5CE70AADF1 /* Pods-BigBrother-resources.sh */,
+				57EB4EE266BF8AD50A25CA8FEAF494D1 /* Pods-BigBrother-umbrella.h */,
+				7BA188372EFCC1E859F7DFBFC359DE29 /* Pods-BigBrother.debug.xcconfig */,
+				08C0104AE3FF6552826E88E499A162B6 /* Pods-BigBrother.release.xcconfig */,
+			);
+			name = "Pods-BigBrother";
+			path = "Target Support Files/Pods-BigBrother";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				FBBC5B88BBC8C0773C2380DD44092311 /* Pods */,
+				3259D5F894F9BA92F31A4729F673E748 /* Products */,
+				5A2E968167A10D6D704F266454D24EFC /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				112C7921E3A497328D11F4930CBBC9CA /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C7EF90DD3D49DFD22C43684785899A4B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7130F610C51DB4898747CC00BB467512 /* CCHDarwinNotificationCenter.modulemap */,
+				0EBAEC2666821AD7700D11237D8710F6 /* CCHDarwinNotificationCenter.xcconfig */,
+				34BE8A153BD104E73192F1CC072FA166 /* CCHDarwinNotificationCenter-dummy.m */,
+				C38CCA252994BEC117A5BE8C7592D5C7 /* CCHDarwinNotificationCenter-prefix.pch */,
+				204C34C03EF6A99CEB76DF345EE73C50 /* CCHDarwinNotificationCenter-umbrella.h */,
+				CC54C652248BA92CF0763CA3C2640BEE /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/CCHDarwinNotificationCenter";
+			sourceTree = "<group>";
+		};
+		D603BF0B72851EC184008C0B7A15C6F0 /* CCHDarwinNotificationCenter */ = {
+			isa = PBXGroup;
+			children = (
+				C377B25E3071514718495D0AFC2D8CE3 /* CCHDarwinNotificationCenter.h */,
+				04B28A6E9D8BB66A2F5E42CF4907A51B /* CCHDarwinNotificationCenter.m */,
+				63E48BC35C8B4028F3FEA238BE5EDE1B /* CCHDarwinNotificationCenterUtils.h */,
+				436395B656EFD19DD72A1AEFEEE32817 /* CCHDarwinNotificationCenterUtils.m */,
+				C7EF90DD3D49DFD22C43684785899A4B /* Support Files */,
+			);
+			path = CCHDarwinNotificationCenter;
+			sourceTree = "<group>";
+		};
+		FBBC5B88BBC8C0773C2380DD44092311 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D603BF0B72851EC184008C0B7A15C6F0 /* CCHDarwinNotificationCenter */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		95C99373B72D46D159052C54CABFC7E2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82028A49609CA4473ACC07AD0EE72139 /* Pods-BigBrother-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB812368B70B5E3E9BF71F689DE761C1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD530B2052831C77873F5BD895A12E12 /* CCHDarwinNotificationCenter-umbrella.h in Headers */,
+				6EDB85EE903776055F31F8A56F872940 /* CCHDarwinNotificationCenter.h in Headers */,
+				FFA4B8B6D2522D6357FDE0EA32BAE7ED /* CCHDarwinNotificationCenterUtils.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		33783FD566B4AACFCF6636DC08DF3249 /* CCHDarwinNotificationCenter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C92C3BAD0E37365C94D9C81F650A8AC /* Build configuration list for PBXNativeTarget "CCHDarwinNotificationCenter" */;
+			buildPhases = (
+				4FFB80009F0801214F8533356A982984 /* Sources */,
+				5114A8194C5E011BA35A60C42D0D5E18 /* Frameworks */,
+				BB812368B70B5E3E9BF71F689DE761C1 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CCHDarwinNotificationCenter;
+			productName = CCHDarwinNotificationCenter;
+			productReference = EF04375047AE78AB560D80657A4E0A4D /* CCHDarwinNotificationCenter.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5521B5A54AA9ABDC7814970C114626B4 /* Pods-BigBrother */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0EACD83B69E81F26B24532D8FEFDD915 /* Build configuration list for PBXNativeTarget "Pods-BigBrother" */;
+			buildPhases = (
+				4731378A5765B48185A103E8E60548EB /* Sources */,
+				67DCC49AB85C1B9717E0D99EFF0B8527 /* Frameworks */,
+				95C99373B72D46D159052C54CABFC7E2 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3716DD6944CC173F40F91CD63C63BDD0 /* PBXTargetDependency */,
+			);
+			name = "Pods-BigBrother";
+			productName = "Pods-BigBrother";
+			productReference = FAE64F4D32C3DD33BB4423D70BC40607 /* Pods_BigBrother.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 3259D5F894F9BA92F31A4729F673E748 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				33783FD566B4AACFCF6636DC08DF3249 /* CCHDarwinNotificationCenter */,
+				5521B5A54AA9ABDC7814970C114626B4 /* Pods-BigBrother */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4731378A5765B48185A103E8E60548EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB0EA248E83A15DD3B17D7E472DF01CC /* Pods-BigBrother-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FFB80009F0801214F8533356A982984 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E8AC0D4E575C6F331DD1852B08C5BDA /* CCHDarwinNotificationCenter-dummy.m in Sources */,
+				12B6EA2BD4C5D92FFD136B4D07E121AC /* CCHDarwinNotificationCenter.m in Sources */,
+				52AF58616ACAEE564FC2720561C1DF21 /* CCHDarwinNotificationCenterUtils.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3716DD6944CC173F40F91CD63C63BDD0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CCHDarwinNotificationCenter;
+			target = 33783FD566B4AACFCF6636DC08DF3249 /* CCHDarwinNotificationCenter */;
+			targetProxy = C2C77D3C6995DEA6D5357E5AD6302D78 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		33D989D30B8E67CE250583C82C941B53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0EBAEC2666821AD7700D11237D8710F6 /* CCHDarwinNotificationCenter.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/CCHDarwinNotificationCenter/CCHDarwinNotificationCenter-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CCHDarwinNotificationCenter/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CCHDarwinNotificationCenter/CCHDarwinNotificationCenter.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = CCHDarwinNotificationCenter;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7219633473F597E64A4BBE96EE901652 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7BA188372EFCC1E859F7DFBFC359DE29 /* Pods-BigBrother.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-BigBrother/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BigBrother/Pods-BigBrother.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_BigBrother;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		811519CB8F683AC06F9C98B55AC40F11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		882EB4391EC2E701934974DA86F7343F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		BAD9EE846D7066D559BAC6D5C7A13FB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0EBAEC2666821AD7700D11237D8710F6 /* CCHDarwinNotificationCenter.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/CCHDarwinNotificationCenter/CCHDarwinNotificationCenter-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CCHDarwinNotificationCenter/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CCHDarwinNotificationCenter/CCHDarwinNotificationCenter.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = CCHDarwinNotificationCenter;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CDB4A2CE9D0B7CF270E5B4210ED3B2DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08C0104AE3FF6552826E88E499A162B6 /* Pods-BigBrother.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-BigBrother/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BigBrother/Pods-BigBrother.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_BigBrother;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0EACD83B69E81F26B24532D8FEFDD915 /* Build configuration list for PBXNativeTarget "Pods-BigBrother" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7219633473F597E64A4BBE96EE901652 /* Debug */,
+				CDB4A2CE9D0B7CF270E5B4210ED3B2DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				882EB4391EC2E701934974DA86F7343F /* Debug */,
+				811519CB8F683AC06F9C98B55AC40F11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C92C3BAD0E37365C94D9C81F650A8AC /* Build configuration list for PBXNativeTarget "CCHDarwinNotificationCenter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAD9EE846D7066D559BAC6D5C7A13FB1 /* Debug */,
+				33D989D30B8E67CE250583C82C941B53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

@@ -1,0 +1,12 @@
+PODS:
+  - CCHDarwinNotificationCenter (1.0.3)
+
+DEPENDENCIES:
+  - CCHDarwinNotificationCenter
+
+SPEC CHECKSUMS:
+  CCHDarwinNotificationCenter: 911b8b03ea6961ba95db754462549e53912e9cab
+
+PODFILE CHECKSUM: 3ecef9f34346311d7fc7cfd7bfc23e65d4096158
+
+COCOAPODS: 1.0.0.beta.3
